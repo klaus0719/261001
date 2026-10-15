@@ -3,138 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>豬豬樂園</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>城市散步</title>
   </head>
   <body>
     <header class="site-header">
-      <div class="container nav-wrap">
-        <div class="brand">🐷 豬豬樂園</div>
-        <nav class="main-nav">
-          <a href="#about">關於豬</a>
-          <a href="#features">特色</a>
-          <a href="#menu">美食</a>
-          <a href="#visit">到訪</a>
-        </nav>
-      </div>
+      <h1>城市散步</h1>
+      <nav>
+        <a href="#event">活動資訊</a>
+        <a href="#signup">立即報名</a>
+      </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <p class="tag">歡迎來到超可愛的肥豬世界</p>
-            <h1>今天也要開心吃、開心玩、開心睡！</h1>
-            <p class="lead">
-              豬豬樂園是一個充滿笑聲與美食的療癒空間，
-              讓每一位小朋友和大朋友都能放鬆心情、享受悠閒時光。
-            </p>
-            <div class="hero-actions">
-              <a href="#menu" class="btn btn-primary">看看菜單</a>
-              <a href="#visit" class="btn btn-secondary">預約入園</a>
-            </div>
-          </div>
-          <div class="pig-card" aria-label="豬豬插畫卡片">
-            <div class="pig-head">
-              <span class="ear left"></span>
-              <span class="ear right"></span>
-              <span class="eye left"></span>
-              <span class="eye right"></span>
-              <span class="snout"></span>
-              <span class="nostril left"></span>
-              <span class="nostril right"></span>
-            </div>
-            <div class="pig-body">
-              <span class="spot spot1"></span>
-              <span class="spot spot2"></span>
-              <span class="spot spot3"></span>
-            </div>
-          </div>
-        </div>
+      <section id="event">
+        <h2>活動資訊</h2>
+        <p>一起在城市街道中慢步，探索美食、文化與景點。</p>
       </section>
 
-      <section id="about" class="section">
-        <div class="container">
-          <h2>豬豬的日常</h2>
-          <div class="about-grid">
-            <div class="info-box">
-              <h3>放鬆</h3>
-              <p>在溫暖的陽光下，慢慢吃一份好吃的，讓心情也跟著變輕鬆。</p>
-            </div>
-            <div class="info-box">
-              <h3>幸福</h3>
-              <p>每一口都像在陪你度過一段歡樂時光，充滿滿滿療癒感。</p>
-            </div>
-            <div class="info-box">
-              <h3>陪伴</h3>
-              <p>跟可愛的豬豬朋友一起散步、自拍、聊天，讓每一天都更有趣。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="features" class="section alt-bg">
-        <div class="container">
-          <h2>特色活動</h2>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <span class="emoji">🥕</span>
-              <h3>彩虹草地</h3>
-              <p>舒服的休閒空間，適合躺著曬太陽和玩耍。</p>
-            </article>
-            <article class="feature-card">
-              <span class="emoji">🍲</span>
-              <h3>豬豬餐廳</h3>
-              <p>熱騰騰的主食、甜點與特調飲料，讓你滿足每一口胃口。</p>
-            </article>
-            <article class="feature-card">
-              <span class="emoji">🎉</span>
-              <h3>節慶派對</h3>
-              <p>不定期的主題活動，充滿音樂、遊戲與驚喜。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="menu" class="section">
-        <div class="container">
-          <h2>人氣推薦</h2>
-          <div class="menu-list">
-            <div class="menu-item">
-              <span>肥豬漢堡</span>
-              <strong>NT$ 180</strong>
-            </div>
-            <div class="menu-item">
-              <span>爆汁香腸堡</span>
-              <strong>NT$ 150</strong>
-            </div>
-            <div class="menu-item">
-              <span>奶油玉米濃湯</span>
-              <strong>NT$ 120</strong>
-            </div>
-            <div class="menu-item">
-              <span>豬豬奶酥蛋糕</span>
-              <strong>NT$ 160</strong>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="visit" class="section cta-section">
-        <div class="container cta-box">
-          <div>
-            <p class="tag">快來找豬豬</p>
-            <h2>一起享受最療癒的一天</h2>
-          </div>
-          <a href="#" class="btn btn-primary">立即預約</a>
-        </div>
+      <section id="signup">
+        <h2>立即報名</h2>
+        <form>
+          <label for="name">姓名：</label>
+          <input type="text" id="name" name="name" />
+          <button type="submit">送出</button>
+        </form>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>© 2026 豬豬樂園 · 快樂吃喝玩樂</p>
-      </div>
+    <footer>
+      <p>© 2026 城市散步</p>
     </footer>
   </body>
 </html>
